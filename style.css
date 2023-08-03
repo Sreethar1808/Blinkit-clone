@@ -59,3 +59,14 @@
     display: inline-block;
     margin:10px;
 }
+::-webkit-scrollbar{
+    display: none;
+}
+.my-catagories{
+    width:83vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: auto;
+    flex-wrap: wrap;
+}
