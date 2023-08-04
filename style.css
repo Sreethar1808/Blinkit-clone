@@ -8,6 +8,7 @@
     top:0px;
     height: 86px;
     background-color: white;
+    z-index: 100;
 }
 .vertical-line{
     border-left: 1px solid rgb(238, 238, 238);
@@ -69,4 +70,131 @@
     justify-content: space-between;
     margin-inline: auto;
     flex-wrap: wrap;
+}
+
+.my-catagory-div{
+    width: 83vw;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+.my-card{
+    width:180px;
+    box-sizing: border-box;
+}
+.time-taken{
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    width:fit-content;
+    padding:1px 3px;
+}
+.product-name{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    /* line-height: 18px; */
+    width: 100%;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.product-weight{
+    color:gray;
+    font-size: 9px;
+}
+.product-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+.product-btn{
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: rgb(247, 255, 249);
+    width: 66px;
+    color: rgb(49, 134, 22);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.my-catagory-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.my-footer{
+    width:83vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+.row-1{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:100%;
+}
+
+td{
+    padding: 3px 20px;
+    color:#666666;
+    font-size: 16px;
+}
+.table-1{
+    flex:2;
+}
+.table-2{
+    flex:4;
+}
+.row-2{
+    width: 100%;
+    color: gray;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.row-2-1{
+    width:25vw;
+}
+.row-2-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row-2-2>button{
+    width:100px;
+    height:30px;
+    color:white;
+    border-radius: 10px;
+    background-color: #213B50;
+    margin: 5px;
+}
+.row-2-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row-2-3>a{
+    
+   border-radius: 50%;
+   background-color: black;
+   width:40px;
+   height:40px;
+   padding: 10px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   margin:10px;
+   
+}
+.row-3{
+    color:gray;
+    font-size: 11px;
+    padding: 10px;
 }
